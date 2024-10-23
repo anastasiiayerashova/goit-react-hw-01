@@ -41,6 +41,7 @@
   justify-content: center;
   text-align: center;
   padding-right: 8px;
+  margin: 0 auto;
 }
 
 .statsList::before {
