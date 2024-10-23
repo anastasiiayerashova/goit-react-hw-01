@@ -45,8 +45,8 @@
   color: #888;
 }
 
-.main-div {
-  background: linear-gradient(150deg, #f0f0f0, #d9d9d9);
+.mainDiv {
+  background: linear-gradient(150deg, #f7f6f6, #f6f5f5);
   border: 4px solid black;
   border-radius: 20px;
   min-width: 500px;

@@ -1,14 +1,12 @@
-import clsx from "clsx";
 import css from "./Profile.module.css";
-console.log(css["alert"])
 
-export default function Profile({image, name, tag, location}) {
+export default function Profile({avatar, name, tag, location, stats}) {
     return (
         <> 
         <div className={css.imgWrapper}>
     <img
-      src={image}
-                alt="User avatar" width="100" height="100"
+      src={avatar}
+                alt="User avatar" width="150" height="150"
                 className={css.icon}
     />
             <p className={css.userName}>{name}</p>
@@ -18,15 +16,15 @@ export default function Profile({image, name, tag, location}) {
         <ul className={css.statsList}>
     <li className={css.statsItem}>
       <span className={css.followers}>Followers</span>
-      <span>1000</span>
+      <span>{stats.followers}</span>
     </li>
     <li className={css.statsItem}>
       <span className={css.followers}>Views</span>
-      <span>2000</span>
+      <span>{stats.views}</span>
     </li>
     <li className={css.statsItem} >
       <span className={css.followers}>Likes</span>
-      <span>3000</span>
+      <span>{stats.likes}</span>
     </li>
             </ul>
             </>
