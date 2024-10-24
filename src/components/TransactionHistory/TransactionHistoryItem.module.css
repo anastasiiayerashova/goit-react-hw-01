@@ -1,0 +1,23 @@
+tr.titles td::first-letter {
+  text-transform: uppercase;
+}
+
+.titles {
+  border: 2px solid black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.titles td {
+  padding: 10px;
+  text-align: center;
+  border-right: 2px solid black;
+  font-size: 25px;
+}
+
+.titles:nth-child(odd) {
+  background-color: white;
+}
+
+.titles:nth-child(even) {
+  background-color: lightgray;
+}

@@ -1,0 +1,21 @@
+.table {
+  width: 670px;
+  border: 3px solid black;
+  border-radius: 8px;
+  border-collapse: collapse;
+}
+
+.thead {
+  background-color: rgb(74, 74, 74);
+}
+
+.titles {
+  color: white;
+  border: 2px solid black;
+}
+
+.titles th {
+  padding: 10px;
+  border-right: 2px solid black;
+  font-family: 'Montserrat', sans-serif;
+}
