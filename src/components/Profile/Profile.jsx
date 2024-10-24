@@ -6,7 +6,7 @@ export default function Profile({avatar, name, tag, location, stats}) {
         <div className={css.imgWrapper}>
     <img
       src={avatar}
-                alt="User avatar" width="200" height="200"
+                alt="User avatar" width="250" height="250"
                 className={css.icon}
     />
             <p className={css.userName}>{name}</p>
